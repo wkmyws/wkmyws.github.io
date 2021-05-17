@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LoveDays from './loveDays/index'
+
+const About = () => {
+  return <h1>fdsgdfgh</h1>
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <div>
+        <Route exact path="/" component={App} />
+        <Route path="/loveDays" component={LoveDays} />
+      </div>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
