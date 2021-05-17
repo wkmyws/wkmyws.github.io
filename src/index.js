@@ -7,9 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoveDays from './loveDays/index'
 
-const About = () => {
-  return <h1>fdsgdfgh</h1>
-}
+
 
 ReactDOM.render(
   <React.StrictMode>
