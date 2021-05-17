@@ -6,7 +6,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoveDays from './loveDays/index'
-
+import TimeLine from './timeLine/index'
 
 
 ReactDOM.render(
@@ -15,6 +15,7 @@ ReactDOM.render(
       <div>
         <Route exact path="/" component={App} />
         <Route path="/loveDays" component={LoveDays} />
+        <Route path="/timeLine" component={TimeLine} />
       </div>
     </Router>
   </React.StrictMode>,

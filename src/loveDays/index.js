@@ -6,9 +6,6 @@ const LoveDays = () => {
   }, [])
   return <></>
 }
-//   <script>
-//     location.href='./loveDays.html'
-//   </script>
-// );
+
 
 export default LoveDays;
